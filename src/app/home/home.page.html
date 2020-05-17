@@ -16,7 +16,7 @@
          Harddisk capacity {{selectedSpace}}
       </ion-label>
 
-          <ion-range  class="ion-text-capitalize" min="0" max="10" step="1" value={{rangeVal}} 
+          <ion-range  class="ion-text-capitalize" min="0" max="10" step="1"
           (ionChange)="onHardDiskChange($event)"
           snaps >
               <ion-label slot="start">0 GB</ion-label>
@@ -26,7 +26,7 @@
       </ion-row>
 
 
-      <ion-text lines="none" class="animated fadeInUp" *ngIf="is_recurringType==true">
+      <ion-text lines="none">
         <p class="error"> Please Select Booking Days</p>
     </ion-text>
 
