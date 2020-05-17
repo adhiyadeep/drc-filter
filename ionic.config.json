@@ -1,5 +1,7 @@
 {
   "name": "serverfilter",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }
